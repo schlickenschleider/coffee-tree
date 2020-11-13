@@ -1,0 +1,54 @@
+body {
+    color: white;
+    background-color: rgba(143, 69, 23, 0.856);
+}
+
+.navbar {
+    font-size: 20px;
+    height: 4em;
+}
+
+.navbar-nav {
+    color: white;
+    background-color: rgba(143, 69, 23, 0.856);
+}
+
+
+ #intro {
+    background-image: url("../img/Intro.jpg");
+    height: 600px;
+    background-size: cover;
+ }
+
+ @media (min-width: 414px) {
+    #intro{
+        background-position: center center;
+    
+}
+
+.divider {
+    background-color: rgb(141, 123, 123);
+}
+
+#about {
+}
+
+#quality {
+    background-color:  rgba(156, 144, 137, 0.856)
+}
+
+#menu {
+    background-image: url("../img/menu.jpg");
+    height: 600px;
+    background-position: bottom;
+    background-size: cover;
+  }
+@media (min-width: 576px) {
+    #menu {
+        background-position: center center;
+    }
+}
+
+.mask {
+      height: 400px;
+  }
